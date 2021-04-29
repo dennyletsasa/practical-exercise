@@ -1,0 +1,232 @@
+.navbar {
+    margin-bottom: 5px;
+}
+
+.navbar-nav {
+    float: left;
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.navbar > .container-fluid .navbar-brand {
+	color: white;
+    margin-left: -15px;
+    font-family: Candara;
+    /*font-weight: bold;*/
+}
+
+.navbar-right {
+	font-size: 12px;
+}
+
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 15px 8px;
+	font-family: Candara;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    color: white;
+}
+
+.navbar-inverse {
+	height: 90px;
+    background-color: #034d82;
+    border-color: #034d82;
+	border-radius: 0px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:focus, 
+.navbar-inverse .navbar-nav > .active > a:hover {
+    text-decoration: underline;
+	background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav a:hover {
+    text-decoration: underline;
+	background-color: transparent;
+}
+
+label {
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-family: Calibri;
+    font-size: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.userForm {
+    border: 1px solid #034d82;
+    padding: 30px 35px;
+}
+
+.form-control {
+	font-family: Calibri;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 0px;
+}
+
+#role{
+	font-size: 14px;
+}
+
+.btn {
+    font-family: Candara;
+    padding: 6px 15px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    border-radius: 0px;
+}
+
+.heading {
+    font-size: 24px;
+    text-align: center;
+    font-family: Calibri;
+    text-decoration: underline;
+	margin-top: -20px;
+	color: #666;
+}
+
+.panel.panel-primary{
+	font-family: Candara;
+    font-size: 16px;
+    margin-top: 10%;
+}
+
+.table > thead:first-child > tr:first-child > th {
+    border-top: 0;
+	font-family: Candara;
+    font-size: 16px;
+}
+
+.table > tbody > tr > td {
+    padding: 8px;
+    font-family: Candara;
+    font-size: 15px;
+}
+
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:focus, 
+.navbar-inverse .navbar-nav > .open >a :hover {
+    color: #fff;
+    background-color: inherit;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    margin-top: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #034d82;;
+}
+
+.dropdown-menu > li > a {
+    color: white;
+	font-family: Candara;
+    white-space: nowrap;
+}
+
+.dropdown-menu > li > a:hover {
+    color: white;
+}
+
+.table-responsive {
+    margin-top: 5%;
+}
+
+#customerDetailsTable th {
+	font-size: 20px;
+	text-align: center;
+}
+
+#customerDetailsTable .column1 {
+	font-family: Candara;
+	font-size: 16px;
+	font-weight: 800;
+}
+
+#customerDetailsTable .column2 {
+	font-family: Consolas;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.formInputErrors {
+	color: red;
+	font-size: 14px;
+	font-family: Calibri;
+}
+
+.printButton {
+	margin-top: 5%;
+}
+
+.alert-danger {
+    text-align: center;
+    font-size: 15px;
+	margin-top: 60px;
+    margin-bottom: -5px;
+}
+
+.pageHeadings {
+	color: #034d82;
+    font-size: 35px;
+	font-family: Candara;
+	font-weight: 500;
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 0px;
+}
+
+.indexpage.panel.panel-primary {
+    font-family: Candara;
+    font-size: 16px;
+    margin-top: 5%;
+}
+
+.indexpage.table-responsive {
+    margin-top: 0%;
+	font-family: Tahoma;
+}
+
+.indexpage.table > tbody > tr > td {
+	font-family: Calibri;
+}
+
+#searchbox[type=text] {
+    width: 250px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: Candara;
+    background-color: white;
+    background-image: url('../../assets/images/search-icon1.jpg');
+	/*background-size: 35px 30px;*/
+    background-position: 10px 10px 0px 10px; 
+    background-repeat: no-repeat;
+    padding: 7px 20px 7px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+#searchbox[type=text]:focus {
+    width: 30%;
+}
+
+#searchbox {
+	float: right;
+	height: 33px;
+}
+
+.panel-footer {
+    padding: 10px 15px;
+    font-family: Verdana;
+    font-size: 12px;
+}
